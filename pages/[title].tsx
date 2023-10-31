@@ -101,6 +101,7 @@ const HomeButton = styled.button(({ theme }) => ({
   color: "whitesmoke",
   "&:hover": {
     boxShadow: theme.buttonHome.backgroundHover.boxShadow,
+    cursor: "pointer",
   },
   fontSize: "16px",
   borderRadius: "40px",
