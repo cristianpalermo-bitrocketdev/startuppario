@@ -8,14 +8,14 @@ export const PoweredBy: FC = (): JSX.Element => (
     <Label>
       Powered by
       <WrapperPoweredBy
-        title="bitrocket.dev"
+        title="bitrocket.studio"
         target="_blank"
-        href="https://www.bitrocket.dev"
+        href="https://www.bitrocket.studio"
       >
-        BitRocket.dev
+        BitRocket.studio
       </WrapperPoweredBy>
     </Label>
-    <Image src={srcLogo} alt="bitRocket.dev" width={30} height={30} />
+    <Image src={srcLogo} alt="bitRocket.studio" width={30} height={30} />
   </Container>
 );
 
